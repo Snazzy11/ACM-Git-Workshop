@@ -62,3 +62,7 @@ git checkout -b your-name-branch
 1. Commit often, commit early
 2. Write meaningful commit messages
 3. Pull before you push
+
+### Other info
+
+- `git remote set-url origin git@github.com:Snazzy11/ACM-Git-Workshop.git/`
