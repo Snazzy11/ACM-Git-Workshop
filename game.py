@@ -19,13 +19,13 @@ def play_game():
             guess = int(input(f"Attempt {attempts + 1}/{max_attempts} - Enter your guess: "))
             attempts += 1
             
-            # BUG: Logic is reversed!
+            # Bug: Logic is reversed
             if guess < secret_num:
                 print("Too high! Try a smaller number.")
             elif guess > secret_num:
                 print("Too low! Try a bigger number.")
             else:
-                print(f"🎉 Congratulations! You guessed it in {attempts} attempts!")
+                print(f"Congratulations! You guessed it in {attempts} attempts.")
                 return True
                 
         except ValueError:

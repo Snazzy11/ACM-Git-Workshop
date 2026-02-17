@@ -13,7 +13,7 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    # BUG: Could divide by zero
+    # Bug: Could divide by zero
     return a / b
 
 def power(a, b):
@@ -32,7 +32,6 @@ def main():
     print("5. Power")
     print("6. Modulo")
     
-    # BUG: Input is string, not converted to int
     choice = int(input("Enter operation (1-6): "))
     
     num1 = float(input("Enter first number: "))
