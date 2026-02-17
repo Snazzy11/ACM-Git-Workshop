@@ -1,5 +1,5 @@
 """
-Number Guessing Game
+Number Guessing Game is cool
 """
 
 import random
