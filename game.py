@@ -33,11 +33,17 @@ def play_game():
     print(f"Game Over! The number was {secret_num}")
     return False
 
-def get_difficulty():
+def get_difficulty(dif: int):
     """Let player choose difficulty level"""
     # Should return different max_attempts based on difficulty
     # Easy: 15 attempts, Medium: 10 attempts, Hard: 5 attempts
-    pass
+    if dif == 1:
+        return 15
+    elif dif == 2:
+        return 10
+    elif dif == 3:
+        return 5
+    else: return 15 
 
 if __name__ == "__main__":
     play_game()
