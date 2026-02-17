@@ -123,9 +123,9 @@ git push
 
     Submit
 
-You're done.
-The Only Commands You Need Today
+And you should be done and set up at this point
 
+### Commands you might need
 ```bash
 git clone
 git checkout -b branch-name
@@ -134,33 +134,29 @@ git commit -m "message"
 git push -u origin branch-name
 ```
 
-That’s it. If something fails, check your remote
-
-git remote -v
+### Troubleshooting
+Check your remote
+`git remote -v`
 
 If you see https://, you are using the wrong protocol.
+To fix it:
 
-Fix it:
-
-git remote set-url origin git@github.com:ORG_NAME/REPO_NAME.git
+`git remote set-url origin git@github.com:ORG_NAME/REPO_NAME.git`
 
 Check Current Branch
-
-git branch
+`git branch`
 
 The * shows your active branch.
-Check Status
 
-git status
+Check Status
+`git status`
 
 This tells you what Git thinks is happening.
-🎯 Final Notes
+Notes
 
     Do not commit directly to main
 
-    Do not panic during merge conflicts
-
-    Git tracks everything
+    Dont panic, Git tracks everything
 
     You cannot permanently destroy the project with normal commands
 
