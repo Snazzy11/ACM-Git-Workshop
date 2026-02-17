@@ -9,9 +9,15 @@ Verify installation:
 git --version
 ```
 
-If you see a version number, you're good.
+If you see a version number its installed. If not, get git
+```
+On Mac: git-scm.com
+On Windows: https://git-scm.com/download/win
+On Linux: apt install git
+```
 
-## 2. Configure Your Identity
+## Setup Option 1
+### Manual auth
 In order to push to Git, you need to be authenticated.
 
 Run:
@@ -26,7 +32,7 @@ Verify with:
 git config --global --list
 ```
 
-## 3. Set Up SSH
+### Set Up SSH
 
 We use SSH because it can be simpler than configuring a token.
 1. Generate SSH Key
@@ -66,6 +72,11 @@ You should see:
 `Hi username! You've successfully authenticated...`
 
 If you see this message, you're done.
+
+## Setup Option 2
+You need GitHub CLI: https://cli.github.com/
+
+Login with `gh auth login`
 
 
 ## During the Workshop
