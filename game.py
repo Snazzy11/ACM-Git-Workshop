@@ -1,6 +1,5 @@
 """
 Number Guessing Game
-CS Club Git Workshop Project
 """
 
 import random

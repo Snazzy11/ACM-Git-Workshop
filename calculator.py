@@ -1,6 +1,5 @@
 """
 Simple Calculator Program
-CS Club Git Workshop Project
 """
 
 def add(a, b):
