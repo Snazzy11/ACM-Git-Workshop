@@ -13,6 +13,8 @@ def multiply(a, b):
 
 def divide(a, b):
     # Bug: Could divide by zero
+    if b == 0:
+        return 0
     return a / b
 
 def power(a, b):
