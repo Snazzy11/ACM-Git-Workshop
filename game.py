@@ -25,7 +25,7 @@ def play_game():
             elif guess > secret_num:
                 print("Too low! Try a bigger number.")
             else:
-                print(f"Congratulations! You guessed it in {attempts} attempts.")
+                print(f"Good job! You guessed it in {attempts} attempts.")
                 return True
                 
         except ValueError:
